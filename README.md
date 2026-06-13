@@ -25,7 +25,7 @@ Seguindo meu padrão de desenvolvimento, a interface utiliza:
 
 ## 🚀 Como acessar
 Você pode conferir o projeto em tempo real através do link:
-👉 **[[Link do seu projeto no Vercel](https://link-na-bio-bay.vercel.app/)]**
+👉 **[[Link do projeto no Vercel](https://link-na-bio-bay.vercel.app/)]**
 
 ## 💻 Como rodar o projeto localmente
 1. Clone este repositório:
