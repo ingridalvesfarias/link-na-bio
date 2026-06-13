@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 3px solid #bc13fe;
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+
+.links {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #bc13fe;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    background-color: #bc13fe;
+    box-shadow: 0 0 15px #bc13fe;
+}
+
+/* Ajuste específico para celulares */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        max-width: 100%; 
+    }
+
+    .profile-pic {
+        width: 200px;
+        height: 200px;
+    }
+
+    .btn {
+        padding: 22px; 
+        font-size: 1.4rem; 
+    }
+}
